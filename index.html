@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My test page</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+    rel="stylesheet" type="text/css">
+
+    <!-- Fix for HTML5 semantic elements in old versions of Internet Explorer -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+    <style>
+      body {
+        background-image: url("woodstock2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        font-family: Arial, sans-serif;
+        position: relative;
+        z-index: 0;
+      }
+
+      /* Dark overlay */
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* adjust opacity here */
+        z-index: -1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Here are a few of my favorite artists</h1>
+    <br> 
+    <h2>Limp Bizkit</h2>
+    <br>
+    <p> Limp Bizkit is an American rap rock band from Jacksonville, Florida. </p>
+    <p>The band was formed in 1994 by vocalist Fred Durst, bassist Sam Rivers, and drummer John Otto.</p>
+    <p>Guitarist Wes Borland joined the band shortly after its formation, and DJ Lethal became a member in 1996.</p> 
+    <br>
+
+    <a href="https://www.youtube.com/watch?v=RYnFIRc0k6E&list=RDEMq2axK4aHu1H7J_lmGi8pnQ&start_radio=1&rv=JTMVOzPPtiw" target="_blank">
+      <img src="limpbizkit.jpg" width="300" alt="Limp Bizkit band photo">
+    </a>
+    <br>
+    <p>Click the image to listen to their music!</p>
+    <br>
+
+    <h2>Linkin Park</h2>
+    <br>
+    <p>Linkin Park is an American rock band from Agoura Hills, California. </p>
+    <p>The band was formed in 1996 by three high school friends: Mike Shinoda, Brad Delson, and Rob Bourdon.</p>
+    <p>They were later joined by Joe Hahn, Dave "Phoenix" Farrell, and Chester Bennington.</p>
+    <br>
+    <a href="https://www.youtube.com/watch?v=jZSPAp8kCl4&list=RDjZSPAp8kCl4&start_radio=1" target="_blank">
+      <img src="chester.jpg" width="300" alt="Linkin Park band photo">
+    </a>
+    <br>    
+    <p>Click the image to listen to their music!</p>
+    <br>
+
+    <h2>Silverchair</h2>
+    <br>
+    <p>Silverchair were an Australian rock band, formed in 1992 in Newcastle, New South Wales, by school friends Daniel Johns, Ben Gillies and Chris Joannou.</p>
+    <p>They were originally named Innocent Criminals, but changed their name to Silverchair in 1994.</p>
+    <p>They achieved worldwide success with their debut album, Frogstomp, which was released in 1995 when the band members were only 15 years old.</p>
+    <br>
+    <a href="https://www.youtube.com/watch?v=PjsMnvqL7eY&list=RDPjsMnvqL7eY&start_radio=1" target="_blank">
+      <img src="silverchair.webp" width="300" alt="Silverchair band photo">
+    </a>
+    <br>
+    <p>Click the image to listen to their music!</p>
+    <br>
+  </body>
+</html>
